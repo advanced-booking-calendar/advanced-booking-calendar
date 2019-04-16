@@ -1,0 +1,15 @@
+/** Common **/
+.abc-shortcode{
+	padding: 20px;
+	background-color: #f1f1f1;
+	text-align: center;
+	border: 2px dashed #d3d3d3;
+}
+.abc-shortcode .abc-title{
+	margin: 10px 0 0;
+}
+.abc-shortcode p.abc-desc{ font-size: 14px; line-height: 1.28em; color: #333333; }
+.abc-shortcode p{ margin-top: 0; }
+.abc-shortcode .block-options{ text-align: left; }
+.mb-cbcf-0 .components-base-control__field{ margin-bottom: 0; }
+.abc-shortcode .block-options label{ margin-bottom: 0; }

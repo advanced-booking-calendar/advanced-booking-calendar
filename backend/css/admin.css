@@ -1,0 +1,241 @@
+/* Admin Styles */
+
+.abcAvailabilityTable {
+	padding-bottom: 15px;
+	overflow-x:auto;
+}
+.abcAvailabilityTable table {
+	 border-spacing:0;
+}
+
+.abcCellBorderBottom{	
+	border-bottom: 1px solid rgb(221, 221, 221)
+}	
+
+.abcCellBorderLeft{	
+	border-left: 1px solid rgb(221, 221, 221);
+}
+
+.abcCellBorderTop{	
+	border-top: 2px solid rgb(221, 221, 221);
+}
+
+.abcDateSelector{
+	padding:5px;
+	clear:both;	
+}
+.abcMonthSelector{
+	font-size: 0.7em;
+	line-heigt: 0.7em;
+	height: 0.8em;
+}	
+.abcDayNumber{
+	width: 30px;
+}
+
+.abcMonthName{
+	font-size: 0.6em;	
+}	
+
+.abcDayName{
+	font-size: 0.6em;	
+}
+
+.abcDayWeekend{
+	background-color: rgb(221, 221, 221);
+}
+
+.abcCalendarName {
+	 background-color: rgb(35, 40, 45);
+	 color: rgb(238, 238, 238);
+	 padding: 4px 2px 4px 2px;
+}
+.abcRoomName {
+	 background-color: rgb(35, 40, 45);
+	 color: rgb(238, 238, 238);
+	 padding: 4px 2px 4px 16px;
+	 min-width: 100px;
+	
+}
+
+.abc-extra-name {
+	font-weight: bold;
+	font-size: 1.0em;
+}
+
+.abc-extra-cost{
+	font-size: 0.8em;	
+}
+
+.abc-pointer{
+	cursor: pointer;
+}
+
+.abc-optional-column-checkbox{
+	width: 20px;
+	float: left;
+}
+
+.abcAvailabilityTableFont{
+	letter-spacing: -0.0625em;	
+}
+
+.abcAvailabilityTableEnding{
+	background-image: url(../../images/ending.png); 
+	background-repeat: no-repeat; 
+	background-position: right;
+	border-right: 0 !important;
+}
+
+.abcAvailabilityTableStarting{
+	background-image: url(../../images/starting.png); 
+	background-repeat: no-repeat; 
+	background-position: left; 
+	border-left: 0 !important;
+}
+
+.abcAvailabilityTableStartingEnding{
+	background-image: url(../../images/starting.png), url(../../images/ending.png); 
+	background-repeat: no-repeat; 
+	background-position: left, right; 
+	border-right: 0 !important;
+	border-left: 0 !important;
+}
+.abcBookingHighlighted {
+	font-weight: bold;
+	color: #ffffff;
+	background-color: #ff2511 !important;;
+	border: 1px solid #a8180b !important;;
+	
+}	
+.abcAvailabilityTableColor0{
+	background-color: #fdea99;
+	border: 1px solid #ccba7c;
+}
+.abcAvailabilityTableColor1{
+	background-color: #a6c6ce;
+	border: 1px solid #90acb2;
+}	
+.abcAvailabilityTableColor2{
+	background-color: #ff6d2a;
+	border: 1px solid #cc5522;
+}
+.abcAvailabilityTableColor3{
+	background-color: #00c2e6;
+	border: 1px solid #00a2bf;
+}
+.abcAvailabilityTableColor4{
+	background-color: #f9cb01;
+	border: 1px solid #cca302;
+}
+.abcAvailabilityTableColor5{
+	background-color: #217084;
+	border: 1px solid #195666;
+}
+.abcAvailabilityTableColor6{
+	background-color: #ff9969;
+	border: 1px solid #cc7b55;
+}
+.abcAvailabilityTableColor7{
+	background-color: #4cd4ed;
+	border: 1px solid #41b2c6;
+}
+.abcAvailabilityTableColor8{
+	background-color: #fbda4d;
+	border: 1px solid #ccaf3f;
+}
+.abcAvailabilityTableColor9{
+	background-color: #639ba9;
+	border: 1px solid #436972;
+}
+.abcAvailabilityTableColor10{
+	background-color: #ffc5aa;
+	border: 1px solid #cc9d88;
+}
+.abcAvailabilityTableColor11{
+	background-color: #99e7f5;
+	border: 1px solid #80c0cc;
+}
+#abcBookingSearchResult {
+	padding-top: 15px;
+}	
+#feedbackSmileys{
+	text-align:center;
+	font-size: 10em;
+	cursor:pointer;
+}
+
+.abcOnboarding{
+	text-align:center;
+	vertical-align:middle;
+	font-size:5em;
+}
+
+.abcOnboardingDone{
+	color:#87cd9c;
+}
+.form-table td{
+	vertical-align: text-top;
+}
+
+/** Order Extras CSS **/
+table{border-collapse: collapse;}
+.ui-state-highlight{
+	border: 2px dashed #b3b3b3;
+	background: #e3e3e3;
+	color: #333;
+}
+.ui-sortable-helper {
+	display: table;
+	background-color: #fff;
+}
+.abc-dragit{
+	display: inline-block;
+	border-top: 2px solid #ccc;
+	width: 25px;
+	padding-top: 2px;
+	cursor: -webkit-grab;
+	cursor: -moz-grab;
+	margin: 5px 7px 0;
+	float: left;
+}
+.abc-dragit:before,
+.abc-dragit:after {
+	display: block;
+	content: "";
+	border-top: 2px solid #ccc;
+	padding-top: 2px;
+}
+.abc-dragit:hover,
+.abc-dragit:hover:before,
+.abc-dragit:hover:after {
+	border-color: #57b5d6;
+	cursor: -webkit-grabbing;
+	cursor: -moz-grabbing;
+}
+
+@media (min-width:1200px) {
+	.abcBookingsTable{
+        display:block !important;
+    }
+	.abcBookingsAccordion{
+        display:none !important;
+    }
+}
+
+@media (max-width:1199px) {
+	.abcBookingsTable{
+        display:none !important;
+    }
+	.abcBookingsAccordion{
+        display:block !important;
+    }
+    
+	.abcRoomName{
+		letter-spacing: -0.0625em;	
+	}
+	
+	.abcCalendarName{
+		letter-spacing: -0.0625em;	
+	}
+}

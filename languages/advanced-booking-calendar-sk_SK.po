@@ -1,0 +1,349 @@
+# Translation of Plugins - Advanced Booking Calendar - Development (trunk) in Slovak
+# This file is distributed under the same license as the Plugins - Advanced Booking Calendar - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2017-02-06 07:38+0100\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Poedit 1.8.11\n"
+"Language: sk\n"
+"Project-Id-Version: Plugins - Advanced Booking Calendar - Development (trunk)\n"
+"POT-Creation-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+
+#: functions.php:1118
+msgid "Once Weekly"
+msgstr "Raz za týždeň"
+
+#: functions.php:759
+msgid "To"
+msgstr "Do"
+
+#: functions.php:758
+msgid "From"
+msgstr "Od"
+
+#: functions.php:610
+msgid "New Booking - Already paid"
+msgstr "Nová rezervácia - už zaplatené"
+
+#: functions.php:478
+msgid "No discount."
+msgstr "Bez zľavy"
+
+#: frontend/bookingform.php:782
+msgid "Description"
+msgstr "Popis"
+
+#: frontend/bookingform.php:781
+msgid "Error Code"
+msgstr "Kód chyby"
+
+#: frontend/bookingform.php:771
+msgid "Please continue to PayPal to validate your booking."
+msgstr "Prosím, pokračujte zaplatením na PayPal "
+
+#: frontend/bookingform.php:771
+msgid "We have received your booking request."
+msgstr "Prijali sme Vašu požiadavku na rezerváciu."
+
+#: frontend/bookingform.php:770
+msgid "Direct link to PayPal"
+msgstr "Priamy odkaz na PayPal"
+
+#: frontend/bookingform.php:580
+msgid "Thank you for your booking!"
+msgstr "Ďakujeme za Vašu rezerváciu"
+
+#: frontend/bookingform.php:502
+msgid "Your booking has been canceled."
+msgstr "Vaša rezervácia bola zrušená"
+
+#: frontend/bookingform.php:454 functions.php:769
+msgid "Payment Selection"
+msgstr "Výber spôsobu platby"
+
+#: backend/settings.php:911 functions.php:27
+msgid "Other available rooms for your stay"
+msgstr "Ďalšie voľné izby pre Váš pobyt"
+
+#: backend/settings.php:905 functions.php:24
+msgid "Selected room"
+msgstr "Vybratá izba"
+
+#: backend/extras.php:319
+msgid "Get Wifi-access in your room."
+msgstr "Získať prístup na WiFi vo Vašej izbe"
+
+#: backend/coupons.php:36
+msgid "SUMMERTIME"
+msgstr "Letná sezóna"
+
+#: backend/coupons.php:29
+msgid "Summer-Discount"
+msgstr "Letná zľava"
+
+#: backend/coupons.php:28
+msgid "Add new Coupon"
+msgstr "Pridajte kupón"
+
+#: backend/coupons.php:27
+msgid "Nights"
+msgstr "Noci"
+
+#: backend/coupons.php:23
+msgid "Valid during"
+msgstr "Platné počas"
+
+#: backend/bookings.php:1218
+msgid "Please help us!"
+msgstr "Prosíme, pomôžte!"
+
+#: backend/bookings.php:1038
+msgid "Thank you!"
+msgstr "Vďaka!"
+
+#: backend/bookings.php:230
+msgid "Payment"
+msgstr "Platba"
+
+#: backend/bookings.php:227
+msgid "Transaction ID"
+msgstr "ID transakcie"
+
+#: backend/bookings.php:222
+msgid "n/a"
+msgstr "nedostupné"
+
+#: advanced-booking-calendar.php:308
+msgid "Kindly,"
+msgstr "S potešením"
+
+#: advanced-booking-calendar.php:305
+msgid "Hi!"
+msgstr "Ahoj!"
+
+#: functions.php:1013
+msgid "%s for each of the %d persons and %d days"
+msgstr "%s za  každú z %d osôb a %d dní"
+
+#: functions.php:1007
+msgid "%s for each of the %d persons and %d nights"
+msgstr "%s za  každú z %d osôb a %d nocí"
+
+#: functions.php:1001
+msgid "%s for each of the %d persons"
+msgstr "%s za každú z %d osôb"
+
+#: functions.php:996
+msgid "%s paid once"
+msgstr "%s zaplatiť naraz"
+
+#: functions.php:991
+msgid "%s for each of the %d days"
+msgstr "%s za  každý z %d dní"
+
+#: functions.php:985
+msgid "%s for each of the %d nights"
+msgstr "%s za  každú z %d nocí"
+
+#: functions.php:481
+msgid "No mandatory extras."
+msgstr "Žiadne povinné doplatky"
+
+#: functions.php:475
+msgid "No optional extras."
+msgstr "Žiadne voliteľné doplatky"
+
+#: backend/settings.php:965 functions.php:54
+msgid "Price for the room"
+msgstr "Cena za izbu"
+
+#: frontend/bookingform.php:354
+msgid "Costs for the extras"
+msgstr "Suma za doplatky"
+
+#: frontend/bookingform.php:350
+msgid "Selected extra"
+msgid_plural "Selected extras"
+msgstr[0] "Zvolený doplatok"
+msgstr[1] "Zvolené doplatky"
+msgstr[2] "Zvolené doplatky"
+
+#: frontend/bookingform.php:296
+msgid "Continue"
+msgstr "Pokračovať"
+
+#: frontend/bookingform.php:264
+msgid "Optional extra"
+msgid_plural "Optional extras"
+msgstr[0] "Voliteľný doplatok"
+msgstr[1] "voliteľné doplatky"
+msgstr[2] "voliteľných doplatkov"
+
+#: backend/settings.php:673 backend/settings.php:683 backend/settings.php:693
+#: backend/settings.php:703 backend/settings.php:713 backend/settings.php:723
+#: backend/settings.php:733 backend/settings.php:743 backend/settings.php:753
+msgid "Optional"
+msgstr "Voliteľný"
+
+#: backend/settings.php:672 backend/settings.php:682 backend/settings.php:692
+#: backend/settings.php:702 backend/settings.php:712 backend/settings.php:722
+#: backend/settings.php:732 backend/settings.php:742 backend/settings.php:752
+msgid "Required"
+msgstr "Požadovaný"
+
+#: backend/settings.php:665
+msgid "Booking Form Inputs"
+msgstr "Vstupy rezervačného systému"
+
+#: backend/settings.php:536
+msgid "Booking Form Settings"
+msgstr "Nastavenia rezervačného systému"
+
+#: backend/settings.php:431
+msgid "Booking form settings have been saved. Please make sure to update the email templates as well."
+msgstr "Nastavenia rezervačného systému boli uložené, prosím, uistite sa, že sú aktualizované aj emailové šablóny."
+
+#: frontend/calendaroverview.php:138 frontend/calendaroverview.php:198
+#: frontend/singlecalendar.php:61
+msgid "Fully booked"
+msgstr "Úplne obsadené"
+
+#: frontend/calendaroverview.php:135 frontend/calendaroverview.php:195
+#: frontend/singlecalendar.php:58
+msgid "Partly booked"
+msgstr "Niektoré ešte voľné"
+
+#: frontend/calendaroverview.php:132 frontend/calendaroverview.php:192
+#: frontend/singlecalendar.php:55
+msgid "Available"
+msgstr "Voľné"
+
+#: frontend/bookingform.php:190 frontend/singlecalendar.php:407
+msgid "Your stay is too short. Minimum stay for those dates is %d nights."
+msgstr "Váš pobyt je príliš krátky. Minimálny pobyt je %d nocí."
+
+#: backend/bookings.php:766
+msgid "December"
+msgstr "December"
+
+#: backend/bookings.php:765
+msgid "November"
+msgstr "November"
+
+#: backend/bookings.php:764
+msgid "October"
+msgstr "Október"
+
+#: backend/bookings.php:763
+msgid "September"
+msgstr "September"
+
+#: backend/bookings.php:762
+msgid "August"
+msgstr "August"
+
+#: backend/bookings.php:761
+msgid "July"
+msgstr "Júl"
+
+#: backend/bookings.php:760
+msgid "June"
+msgstr "Jún"
+
+#: backend/bookings.php:759
+msgid "May"
+msgstr "Máj"
+
+#: backend/bookings.php:758
+msgid "April"
+msgstr "Apríl"
+
+#: backend/bookings.php:757
+msgid "March"
+msgstr "Marec"
+
+#: backend/bookings.php:756
+msgid "February"
+msgstr "Február"
+
+#: backend/bookings.php:755
+msgid "January"
+msgstr "Január"
+
+#: widget.php:26
+msgid "Title:"
+msgstr "Titul:"
+
+#: widget.php:23
+msgid "Availability"
+msgstr "Dostupnosť"
+
+#: frontend/bookingform.php:101 frontend/bookingform.php:130
+#: frontend/singlecalendar.php:41
+msgid "Loading..."
+msgstr "Načítavanie..."
+
+#: frontend/singlecalendar.php:24 frontend/singlecalendar.php:31
+msgid "Sa"
+msgstr "So"
+
+#: frontend/singlecalendar.php:23 frontend/singlecalendar.php:30
+msgid "Fr"
+msgstr "Pi"
+
+#: frontend/singlecalendar.php:22 frontend/singlecalendar.php:29
+msgid "Th"
+msgstr "Št"
+
+#: frontend/singlecalendar.php:21 frontend/singlecalendar.php:28
+msgid "We"
+msgstr "St"
+
+#: frontend/singlecalendar.php:20 frontend/singlecalendar.php:27
+msgid "Tu"
+msgstr "Ut"
+
+#: frontend/singlecalendar.php:19 frontend/singlecalendar.php:26
+msgid "Mo"
+msgstr "Po"
+
+#: frontend/singlecalendar.php:18 frontend/singlecalendar.php:32
+msgid "Su"
+msgstr "Ne"
+
+#: backend/settings.php:959 functions.php:51
+msgid "Thank you for your booking request!"
+msgstr "Ďakujeme za vašu rezerváciu!"
+
+#: frontend/bookingform.php:470
+msgid "Total Price"
+msgstr "Celková suma"
+
+#: backend/settings.php:935 functions.php:39
+msgid "Your stay"
+msgstr "Váš pobyt"
+
+#: backend/settings.php:917 functions.php:30
+msgid "No rooms available for your search request."
+msgstr "Neboli nájdené žiadne voľné izby podľa Vašej požiadavky"
+
+#: backend/settings.php:923 functions.php:33
+msgid "Available rooms for your stay"
+msgstr "Dostupné izby pre Váš pobyt"
+
+#: backend/settings.php:953 functions.php:48
+msgid "Book now"
+msgstr "Rezervujte teraz"
+
+#: frontend/bookingform.php:192
+msgid "average"
+msgstr "priemer."
+
+#: backend/settings.php:893 functions.php:18
+msgid "Check availabilities"
+msgstr "Skontroluj dostupnosť"

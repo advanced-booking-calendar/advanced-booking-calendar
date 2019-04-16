@@ -1,0 +1,1672 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Advanced Booking Calendar\n"
+"POT-Creation-Date: 2016-07-10 13:50+0200\n"
+"PO-Revision-Date: 2016-11-10 15:57+0100\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: advanced-booking-calendar.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: bs_BA@latin\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: advanced-booking-calendar.php:144
+msgid "Your details"
+msgstr "Vaši detalji"
+
+#: advanced-booking-calendar.php:145
+msgid "Hi [abc_first_name]!"
+msgstr "Poštovanje [abc_first_name]!"
+
+#: advanced-booking-calendar.php:146
+#, php-format
+msgid "Your %s-Team"
+msgstr "Vaš %s- Team"
+
+#: advanced-booking-calendar.php:147 frontend/bookingform.php:390
+msgid "Room type"
+msgstr "Tip sobe"
+
+#: advanced-booking-calendar.php:148
+msgid "Room price"
+msgstr "Cijena sobe"
+
+#: advanced-booking-calendar.php:149
+msgid "Selected extras"
+msgstr "Odabrane dodatne usluge"
+
+#: advanced-booking-calendar.php:150 backend/bookings.php:1160
+#: frontend/bookingform.php:292 frontend/bookingform.php:310
+msgid "Additional costs"
+msgstr "Dodatni troškovi"
+
+#: advanced-booking-calendar.php:151 backend/bookings.php:186
+#: backend/bookings.php:817 backend/bookings.php:1165
+#: frontend/bookingform.php:171 frontend/singlecalendar.php:331
+msgid "Total price"
+msgstr "Ukupna cijena"
+
+#: advanced-booking-calendar.php:152
+msgid "Checkin - Checkout"
+msgstr "Prijava - Odjava"
+
+#: advanced-booking-calendar.php:153
+msgid "Number of guests"
+msgstr "Broj gostiju"
+
+#: advanced-booking-calendar.php:154
+msgid "Full Name"
+msgstr "Puno ime"
+
+#: advanced-booking-calendar.php:155 backend/bookings.php:136
+#: backend/settings.php:269
+msgid "Email"
+msgstr "E-mail"
+
+#: advanced-booking-calendar.php:156 backend/bookings.php:136
+msgid "Phone"
+msgstr "Telefon"
+
+#: advanced-booking-calendar.php:157 backend/bookings.php:137
+msgid "Address"
+msgstr "Adresa"
+
+#: advanced-booking-calendar.php:158
+msgid "Your message to us"
+msgstr "Vaša poruka nama"
+
+#: advanced-booking-calendar.php:159
+#, php-format
+msgid "Your booking at %s"
+msgstr "Vaša rezervacija za %s"
+
+#: advanced-booking-calendar.php:162
+#, php-format
+msgid ""
+"Thank you for booking at %s. Your booking has not yet been confirmed. Please "
+"wait for an additional confirmation email."
+msgstr ""
+"Hvala za Vašu rezervaciju za %s. Vaša rezervacija još nije potvrđena. Molimo "
+"Vas da sačekate dodatni mail potvrde Vaše rezervacije."
+
+#: advanced-booking-calendar.php:166
+#, php-format
+msgid "Confirming your booking at %s"
+msgstr "Potvrđivanje Vaše rezervacije za %s"
+
+#: advanced-booking-calendar.php:169
+msgid "We are happy to confirm your booking!"
+msgstr "Zadovoljstvo nam je potvrditi Vašu rezervaciju!"
+
+#: advanced-booking-calendar.php:171
+msgid "If you have any questions regard your stay, feel free to contact us."
+msgstr ""
+"Ukoliko imate bilo kakvo pitanje vezano za Vaš boravak, budite slobodni "
+"kontaktirati nas."
+
+#: advanced-booking-calendar.php:174
+#, php-format
+msgid "Canceling your booking at %s"
+msgstr "Otkazivanje Vaše rezervacije za %s"
+
+#: advanced-booking-calendar.php:177
+msgid ""
+"We are very sorry to cancel your booking! We already had another reservation "
+"for your requested travel period."
+msgstr ""
+"Žao nam je zbog otkazivanja Vaše rezervacije! Termin koji je u Vašem "
+"zahtjevu je već rezervisan."
+
+#: advanced-booking-calendar.php:178 advanced-booking-calendar.php:185
+#, php-format
+msgid ""
+"Please check our website at %s for an alternative. We would be very happy to "
+"welcome you any time soon."
+msgstr ""
+"Molimo, posjetite našu web stranicu na %s za neku alternative. Bilo bi nam "
+"zadovoljstvo ugostiti Vas čim prije."
+
+#: advanced-booking-calendar.php:181
+#, php-format
+msgid "Rejecting your booking at %s"
+msgstr "Odbijanje Vaše rezervacije za %s"
+
+#: advanced-booking-calendar.php:184
+msgid ""
+"We are very sorry to reject your booking! We already had another reservation "
+"for your requested travel period."
+msgstr ""
+"Žao nam je što smo morali odbiti Vašu rezervaciju! Termin koji je u Vašem "
+"zahtjevu je već rezervisan."
+
+#: advanced-booking-calendar.php:266 advanced-booking-calendar.php:267
+#: backend/bookings.php:1101
+msgid "Bookings"
+msgstr "Rezervacije"
+
+#: advanced-booking-calendar.php:274 advanced-booking-calendar.php:275
+#: backend/bookings.php:1022 backend/seasons-calendars.php:663
+msgid "Seasons & Calendars"
+msgstr "Sezone & kalendari"
+
+#: advanced-booking-calendar.php:282 advanced-booking-calendar.php:283
+#: backend/bookings.php:138 backend/bookings.php:185 backend/bookings.php:1155
+#: backend/extras.php:125
+msgid "Extras"
+msgstr "Dodatne usluge"
+
+#: advanced-booking-calendar.php:290 advanced-booking-calendar.php:291
+#: backend/analytics.php:14
+msgid "Analytics"
+msgstr "Statistika"
+
+#: advanced-booking-calendar.php:298 advanced-booking-calendar.php:299
+#: backend/settings.php:256
+msgid "Settings"
+msgstr "Podešavanja"
+
+#: backend/analytics.php:41
+msgid "There are currently no calendars."
+msgstr "Trenutno nema kreiranih kalendara."
+
+#: backend/analytics.php:43
+msgid "Please create a calendar first."
+msgstr "Molimo, prvo kreirajte kalendar."
+
+#: backend/analytics.php:86
+#, php-format
+msgid "Overall Occupation Rate for the next %d days"
+msgstr "Stopa popunjenosti kapaciteta za narednih %d dana"
+
+#: backend/analytics.php:96
+#, php-format
+msgid "Occupation Rate of each calendar for the next %d days"
+msgstr ""
+"Stopa popunjenosti kapaciteta za svaki od kalendara za narednih %d dana"
+
+#: backend/analytics.php:132
+#, php-format
+msgid "Number of requests for the next %d days"
+msgstr "Broj zahtjeva za narednih %d dana"
+
+#: backend/analytics.php:167
+#, php-format
+msgid "Percentage per person for the next %d days"
+msgstr "Procenata po osobi za narednih %d dana"
+
+#: backend/analytics.php:207
+#, php-format
+msgid "Average revenue per calendar for the next %d days"
+msgstr "Prosječan prihod po kalendaru za narednih %d dana"
+
+#: backend/bookings.php:132 frontend/bookingform.php:85
+#: frontend/bookingform.php:388 frontend/singlecalendar.php:325 widget.php:110
+msgid "Checkin"
+msgstr "Prijava"
+
+#: backend/bookings.php:133 frontend/bookingform.php:90
+#: frontend/bookingform.php:389 frontend/singlecalendar.php:326 widget.php:115
+msgid "Checkout"
+msgstr "Odjava"
+
+#: backend/bookings.php:134 backend/bookings.php:1120
+#: backend/seasons-calendars.php:598 backend/seasons-calendars.php:926
+#: backend/seasons-calendars.php:940
+msgid "Calendar"
+msgstr "Kalendar"
+
+#: backend/bookings.php:134
+msgid "Room"
+msgstr "Soba"
+
+#: backend/bookings.php:135 backend/extras.php:179 backend/extras.php:282
+#: backend/extras.php:298 backend/seasons-calendars.php:462
+#: backend/seasons-calendars.php:527 backend/seasons-calendars.php:731
+#: backend/seasons-calendars.php:750 backend/seasons-calendars.php:827
+#: backend/seasons-calendars.php:841
+msgid "Name"
+msgstr "Ime"
+
+#: backend/bookings.php:138 backend/extras.php:209 backend/extras.php:286
+#: backend/extras.php:328 backend/seasons-calendars.php:532
+#: backend/seasons-calendars.php:828 backend/seasons-calendars.php:846
+msgid "Price"
+msgstr "Cijena"
+
+#: backend/bookings.php:139 backend/bookings.php:187 backend/bookings.php:818
+#: frontend/bookingform.php:376
+msgid "Message"
+msgstr "Poruka"
+
+#: backend/bookings.php:166
+msgid "No extras"
+msgstr "Bez dodatne usluge"
+
+#: backend/bookings.php:173 backend/bookings.php:182 backend/bookings.php:814
+#: functions.php:482
+msgid "Booking Request"
+msgstr "Zahtjev za rezervaciju"
+
+#: backend/bookings.php:192 backend/bookings.php:214 backend/bookings.php:223
+#: backend/bookings.php:823 backend/bookings.php:838 backend/bookings.php:847
+msgid "Confirm"
+msgstr "Potvrdi"
+
+#: backend/bookings.php:192 backend/bookings.php:823
+msgid "Do you really want to confirm this booking?"
+msgstr "Da li zaista želite potvrditi ovu rezervaciju?"
+
+#: backend/bookings.php:195 backend/bookings.php:826
+msgid "Reject"
+msgstr "Odbaci"
+
+#: backend/bookings.php:195 backend/bookings.php:826
+msgid "Do you really want to reject this booking?"
+msgstr "Da li zaista želite odbaciti ovu rezervaciju?"
+
+#: backend/bookings.php:205
+msgid "Change room"
+msgstr "Promijeni sobu"
+
+#: backend/bookings.php:208 backend/bookings.php:832
+msgctxt "a booking"
+msgid "Cancel"
+msgstr "Otkaži rezervaciju"
+
+#: backend/bookings.php:208 backend/bookings.php:832
+msgid "Do you really want to cancel this booking?"
+msgstr "Da li zaista želite otkazati ovu rezervaciju?"
+
+#: backend/bookings.php:214 backend/bookings.php:838
+msgid ""
+"Do you really want to confirm this booking (it has already been canceled)?"
+msgstr ""
+"Da li zaista želite potvrditi ovu rezervaciju (ona je već bila otkazana)?"
+
+#: backend/bookings.php:217 backend/bookings.php:226 backend/bookings.php:841
+#: backend/bookings.php:850 backend/extras.php:274
+#: backend/seasons-calendars.php:715 backend/seasons-calendars.php:817
+#: backend/seasons-calendars.php:916
+msgid "Delete"
+msgstr "Obriši"
+
+#: backend/bookings.php:217 backend/bookings.php:226 backend/bookings.php:841
+#: backend/bookings.php:850
+msgid "Do you really want to delete this booking?"
+msgstr "Da li zaista želite obrisati ovu rezervaciju?"
+
+#: backend/bookings.php:223 backend/bookings.php:847
+msgid ""
+"Do you really want to confirm this booking (it has already been rejected)?"
+msgstr ""
+"Da li zaista želite potvrditi ovu rezervaciju (ona je već bila odbačena)?"
+
+#: backend/bookings.php:233 backend/bookings.php:857
+msgid "Scroll up"
+msgstr "Pomakni gore"
+
+#: backend/bookings.php:260
+msgid "No Bookings found."
+msgstr "Nema pronađenih rezervacija"
+
+#: backend/bookings.php:268
+msgid "Select..."
+msgstr "Odaberi..."
+
+#: backend/bookings.php:316
+msgid "Calendar is available."
+msgstr "Kalendar je dostupan."
+
+#: backend/bookings.php:317
+msgid "Room price for the stay"
+msgstr "Cijena sobe za boravak"
+
+#: backend/bookings.php:319
+msgid ""
+"There is an overlap in the bookings. Check if you can move other bookings to "
+"other rooms. The booking can only be saved as \"open\""
+msgstr ""
+"Imamo preklapanje rezervacija. Provjerite da li možete pomjeriti Vaš termin "
+"ili poslati upit za drugu sobu. Vaša rezervacija samo može biti sačuvana kao "
+"\"otvorena\"."
+
+#: backend/bookings.php:322
+msgid "No rooms available for this calendar during the selected time period"
+msgstr "Nemamo slobodnih soba za ovaj kalendar u terminu koji ste odabrali."
+
+#: backend/bookings.php:325 frontend/bookingform.php:199
+msgid "Something went wrong."
+msgstr "Nešto nije u redu."
+
+#: backend/bookings.php:479
+msgid "Change room for a booking"
+msgstr "Promijenite sobu za rezervaciju"
+
+#: backend/bookings.php:487
+msgid "Booking"
+msgstr "Rezervacija"
+
+#: backend/bookings.php:488 backend/bookings.php:647 backend/bookings.php:653
+#: backend/bookings.php:683 backend/bookings.php:691 functions.php:272
+#: functions.php:297
+#, php-format
+msgid "%d person"
+msgid_plural "%d persons"
+msgstr[0] "%d osoba"
+msgstr[1] "%d osobe"
+msgstr[2] "%d osoba"
+
+#: backend/bookings.php:492
+msgid "state"
+msgstr "status"
+
+#: backend/bookings.php:493 backend/settings.php:452
+msgid "message"
+msgstr "poruka"
+
+#: backend/bookings.php:497
+msgid "Available rooms"
+msgstr "Slobodne sobe"
+
+#: backend/bookings.php:499
+msgid "Room changes will not affect any price changes!"
+msgstr "Promjena sobe neće izazvati promjenu cijene!"
+
+#: backend/bookings.php:503 backend/extras.php:215
+#: backend/seasons-calendars.php:502 backend/seasons-calendars.php:543
+#: backend/seasons-calendars.php:616 backend/seasons-calendars.php:654
+#: backend/settings.php:363 backend/settings.php:462 backend/settings.php:527
+msgid "Save"
+msgstr "Sačuvaj"
+
+#: backend/bookings.php:504 backend/extras.php:216
+#: backend/seasons-calendars.php:503 backend/seasons-calendars.php:544
+#: backend/seasons-calendars.php:617 backend/seasons-calendars.php:655
+msgctxt "a change"
+msgid "Cancel"
+msgstr "Odbaci promjenu"
+
+#: backend/bookings.php:567
+msgid "January"
+msgstr "Januar"
+
+#: backend/bookings.php:568
+msgid "February"
+msgstr "Februar"
+
+#: backend/bookings.php:569
+msgid "March"
+msgstr "Mart"
+
+#: backend/bookings.php:570
+msgid "April"
+msgstr "April"
+
+#: backend/bookings.php:571
+msgid "May"
+msgstr "Maj"
+
+#: backend/bookings.php:572
+msgid "June"
+msgstr "Juni"
+
+#: backend/bookings.php:573
+msgid "July"
+msgstr "Juli"
+
+#: backend/bookings.php:574
+msgid "August"
+msgstr "Avgust"
+
+#: backend/bookings.php:575
+msgid "September"
+msgstr "Septembar"
+
+#: backend/bookings.php:576
+msgid "October"
+msgstr "Oktobar"
+
+#: backend/bookings.php:577
+msgid "November"
+msgstr "Novembar"
+
+#: backend/bookings.php:578
+msgid "December"
+msgstr "Decembar"
+
+#: backend/bookings.php:763
+msgid "Thank you for your Feedback!"
+msgstr "Hvala Vam na povratnim informacijama!"
+
+#: backend/bookings.php:777
+msgid "Thank you! The link is now activated."
+msgstr "Hvala Vam! Link je aktiviran."
+
+#: backend/bookings.php:788
+msgid "Search not set."
+msgstr "Parametri pretrage nisu postavljeni"
+
+#: backend/bookings.php:886
+msgid "Congratulations on your 10th confirmed Booking!"
+msgstr "Čestitamo Vam 10. potvrđenu rezervaciju!"
+
+#: backend/bookings.php:887
+msgid ""
+"We would like to give your more tips on how to raise your occupation rate "
+"via our Newsletter. We promise to never spam you. You can unsubscribe "
+"anytime."
+msgstr ""
+"Željeli bismo Vam dati neke savjete o tome kako povećati stopu zanimanja za "
+"Vašu uslugu putem naših biltena. Sigurno Vam nećemo slati spam mailove, a "
+"odjaviti se možete u svakom trenutku. "
+
+#: backend/bookings.php:888 backend/bookings.php:895 backend/bookings.php:902
+msgid "Click OK to subscribe now!"
+msgstr "Kliknite OK da se pretplatite za naše biltene!"
+
+#: backend/bookings.php:893
+msgid "Wow! Congratulations on your 100th confirmed Booking!"
+msgstr "Nevjerovatno! Čestitamo Vam 100. potvrđenu rezervaciju!"
+
+#: backend/bookings.php:894 backend/bookings.php:901
+msgid ""
+"You are obviously doing a great job! But still, maybe you could learn "
+"something by our tips on how to raise your occupation rate via our "
+"Newsletter. We promise to never spam you. You can unsubscribe anytime."
+msgstr ""
+"Vi, očigledno je, radite odličan posao. Ali ipak, možda možete naučiti nešto "
+"i iz naših savjeta koje možete dobiti putem naših biltena. Sigurno Vam "
+"nećemo slati spam mailove, a odjaviti se možete u svakom trenutku."
+
+#: backend/bookings.php:900
+#, php-format
+msgid "Congratulations! You just surpassed a total revenue of 20000 %s!"
+msgstr "Čestitamo! Upravo ste ostvarili ukupni prihod od 20000 %s!"
+
+#: backend/bookings.php:912
+msgid "Do you like this Plugin?"
+msgstr "Da li Vam se sviđa ovaj dodatak?"
+
+#: backend/bookings.php:918
+msgid "Oh, we are sorry!"
+msgstr "Ups, žao nam je!"
+
+#: backend/bookings.php:919
+msgid "Would you tell us what you don't like?"
+msgstr "Da li biste nam rekli šta Vam se ne sviđa?"
+
+#: backend/bookings.php:922
+msgid "Send Feedback"
+msgstr "Pošalji povratne informacije"
+
+#: backend/bookings.php:926
+msgid "Great!"
+msgstr "Odlično!"
+
+#: backend/bookings.php:927
+msgid "We would really appreciate a review:"
+msgstr "Bilo bi nam drago da ostavite vašu recenziju:"
+
+#: backend/bookings.php:931
+msgid ""
+"You can also help us by activating a tiny \"Power by Advanced Booking "
+"Calendar\"-notice below the calendar overview. It would help us a lot!"
+msgstr ""
+"Možete nam pomoći i aktiviranjem tankog \"Power by Advanced Booking Calendar"
+"\" - linka ispod kalendara. To bi nam mnogo pomoglo!"
+
+#: backend/bookings.php:933
+msgid "Activate Powered-By-Link"
+msgstr "Aktiviraj \"Powered-By\" link"
+
+#: backend/bookings.php:978
+msgid "Booking has been saved. Has yet to be confirmed."
+msgstr "Rezervacija je sačuvana. Još treba biti i potvrđena."
+
+#: backend/bookings.php:979 backend/bookings.php:984 backend/bookings.php:989
+#: backend/bookings.php:994 backend/bookings.php:999 backend/bookings.php:1004
+#: backend/bookings.php:1009 backend/bookings.php:1014 backend/extras.php:103
+#: backend/extras.php:108 backend/extras.php:115 backend/extras.php:120
+#: backend/seasons-calendars.php:385 backend/seasons-calendars.php:399
+#: backend/seasons-calendars.php:404 backend/seasons-calendars.php:409
+#: backend/seasons-calendars.php:414 backend/seasons-calendars.php:419
+#: backend/seasons-calendars.php:424 backend/seasons-calendars.php:429
+#: backend/seasons-calendars.php:434 backend/seasons-calendars.php:439
+#: backend/settings.php:239 backend/settings.php:244 backend/settings.php:249
+msgid "Dismiss this notice."
+msgstr "Odbaci ovu obavjest."
+
+#: backend/bookings.php:983
+msgid "Booking has been saved and state set to confirmed."
+msgstr "Rezervacija je sačuvana u statusu je \"spremna za potvrđivanje\"."
+
+#: backend/bookings.php:988
+msgid "Booking confirmed."
+msgstr "Rezervacija potvrđena."
+
+#: backend/bookings.php:993
+msgid "Booking canceled."
+msgstr "Rezervacija otkazana."
+
+#: backend/bookings.php:998
+msgid "Booking rejected."
+msgstr "Rezervacija odbijena"
+
+#: backend/bookings.php:1003
+msgid "Booking deleted."
+msgstr "Reuervacija obrisana."
+
+#: backend/bookings.php:1008
+msgid "Something went wrong, change didn't work."
+msgstr "Nešto nije kako treba, promjena nije uspjela."
+
+#: backend/bookings.php:1013
+msgid "Room has been changed."
+msgstr "Soba je promijenjena."
+
+#: backend/bookings.php:1021
+msgid "setup guide"
+msgstr "vodič za podešavanje"
+
+#: backend/bookings.php:1023 backend/bookings.php:1081
+#: backend/bookings.php:1109
+msgid "Create a Booking"
+msgstr "Kreiraj rezervaciju"
+
+#: backend/bookings.php:1029 backend/bookings.php:1040
+msgid "Create a Calendar"
+msgstr "Kreiraj kalendar"
+
+#: backend/bookings.php:1041
+#, php-format
+msgid ""
+"A calendar is one room or even a group of rooms of the same room type. Start "
+"by adding a calendar here: \"%s\""
+msgstr ""
+"Kalendar je za jednu sobu ili grupu soba istog tipa. Započni dodavanje "
+"kalendara ovde: \"%s\""
+
+#: backend/bookings.php:1050 backend/bookings.php:1061
+msgid "Create a Season & assign it to a Calendar"
+msgstr "Napravite sezonu i dodijelite je terminu na kalendaru"
+
+#: backend/bookings.php:1062
+#, php-format
+msgid ""
+"With seasons you can create differnt rates for different time periods. Go to "
+"\"%s\" and add a season and assign it to a calendar."
+msgstr ""
+"Sa sezonama možete kreirati različite cijene za različite periode u godini. "
+"Idite \"%s\" i kreirajte sezonu te je dodijelite kalendaru."
+
+#: backend/bookings.php:1069
+#, php-format
+msgid "There are currently no bookings. Check out our %s to get started."
+msgstr ""
+"Trenutno nema zahtjeva za rezervacije. Provjerite naš %s da biste započeli."
+
+#: backend/bookings.php:1070
+msgid "If you have a question, feel free to contact us:"
+msgstr "Ukoliko imate pitanja, budite slobodni obratiti nam se."
+
+#: backend/bookings.php:1071
+msgid "Contact Support"
+msgstr "Obratite se podršci"
+
+#: backend/bookings.php:1082
+msgid ""
+"When everything is set up, add shortcodes to your WordPress pages and wait "
+"for the first guest."
+msgstr ""
+"Ako ste sve podesili, dodajte kratki kod u Vašu WordPress stranicu i čekajte "
+"Vaše prve goste."
+
+#: backend/bookings.php:1083
+#, php-format
+msgid "You can also click on \"%s\" and add your first Booking manually."
+msgstr "Klikom na \"%s\" možete dodati prve rezervaciije ručno."
+
+#: backend/bookings.php:1106
+msgid "Open Bookings"
+msgstr "Otvorene rezervacije"
+
+#: backend/bookings.php:1107
+msgid "Confirmed Bookings"
+msgstr "Potvrđene rezervacije"
+
+#: backend/bookings.php:1108
+msgid "Rejected & canceled Bookings"
+msgstr "Odbijene i otkazane rezervacije"
+
+#: backend/bookings.php:1110 backend/bookings.php:1251
+msgid "Search"
+msgstr "Pretraga"
+
+#: backend/bookings.php:1126 frontend/bookingform.php:97 widget.php:120
+msgid "Persons"
+msgstr "Osoba"
+
+#: backend/bookings.php:1128
+msgid "Set calendar"
+msgstr "Podesi kalendar"
+
+#: backend/bookings.php:1132
+msgid "Checkin Date"
+msgstr "Datum prijave"
+
+#: backend/bookings.php:1141
+msgid "Checkout Date"
+msgstr "Datum odjave"
+
+#: backend/bookings.php:1150
+msgid "State"
+msgstr "Status"
+
+#: backend/bookings.php:1170
+msgid "Set Booking State to"
+msgstr "Podesi status rezervacije na"
+
+#: backend/bookings.php:1172
+msgid "Open (has to be confirmed)"
+msgstr "Otvorena (treba biti potvrđena)"
+
+#: backend/bookings.php:1173
+msgid "Confirmed"
+msgstr "Potvrđena"
+
+#: backend/bookings.php:1177 backend/settings.php:372
+#: frontend/bookingform.php:324
+msgid "First Name"
+msgstr "Ime"
+
+#: backend/bookings.php:1183 backend/settings.php:382
+#: frontend/bookingform.php:330
+msgid "Last Name"
+msgstr "Prezime"
+
+#: backend/bookings.php:1189 frontend/bookingform.php:335
+msgid "Email Address"
+msgstr "E-mail adresa"
+
+#: backend/bookings.php:1195
+msgid "Send confirmation email to guest"
+msgstr "Pošalji e-mail potvrde gostu"
+
+#: backend/bookings.php:1197 backend/extras.php:204 backend/extras.php:233
+#: backend/extras.php:323
+msgid "Yes"
+msgstr "Da"
+
+#: backend/bookings.php:1198 backend/extras.php:205 backend/extras.php:236
+#: backend/extras.php:324
+msgid "No"
+msgstr "Ne"
+
+#: backend/bookings.php:1202 backend/settings.php:392
+#: frontend/bookingform.php:340
+msgid "Phone Number"
+msgstr "Broj telefona"
+
+#: backend/bookings.php:1208 backend/settings.php:402
+#: frontend/bookingform.php:346
+msgid "Street Address, House no."
+msgstr "Adresa i kućni broj"
+
+#: backend/bookings.php:1214 backend/settings.php:412
+#: frontend/bookingform.php:352
+msgid "ZIP Code"
+msgstr "ZIP Kod"
+
+#: backend/bookings.php:1220 backend/settings.php:432
+#: frontend/bookingform.php:358
+msgid "City"
+msgstr "Grad"
+
+#: backend/bookings.php:1226 backend/settings.php:422
+#: frontend/bookingform.php:364
+msgid "State / County"
+msgstr "Okrug / Kantona / Županija"
+
+#: backend/bookings.php:1232 backend/settings.php:442
+#: frontend/bookingform.php:370
+msgid "Country"
+msgstr "Država"
+
+#: backend/bookings.php:1238
+msgid "Message, special note for stay"
+msgstr "Poruka, posebna napomena za boravak"
+
+#: backend/bookings.php:1244
+msgid "Create Booking"
+msgstr "Kreiraj rezervaciju"
+
+#: backend/bookings.php:1250
+msgid "search"
+msgstr "pretraži"
+
+#: backend/extras.php:102
+msgid ""
+"Extras are limited to 2 in the free version! If you need more extras, please "
+"download our <a href=\"https://booking-calendar-plugin.com/pro-download/\" "
+"target=\"_blank\">Pro-Version</a>."
+msgstr ""
+"Možete kreirati dvije dodatne usluge u besplatnoj verziji plugina! Ukoliko "
+"Vam je potrebna opcija kreiranja više dodatnih usluga, molimo Vas da "
+"preuzmete našu <a href=\"https://booking-calendar-plugin.com/pro-download/\" "
+"target=\"_blank\">Pro-Verziju</a>."
+
+#: backend/extras.php:107 backend/extras.php:112
+msgid "Extra has been added."
+msgstr "Dodatna usluga je kreirana."
+
+#: backend/extras.php:113
+msgid "Make sure to add the placeholdes for extras in your email settings"
+msgstr ""
+"Provjerite da li ste dodali polje za dodatne usluge kad budete konfigurisali "
+"e-mail."
+
+#: backend/extras.php:114 backend/settings.php:262
+msgid "Email Settings"
+msgstr "Postavke e-maila"
+
+#: backend/extras.php:119 backend/seasons-calendars.php:389
+msgid "Change has been saved."
+msgstr "Promjene su sačuvane."
+
+#: backend/extras.php:172
+msgid "Edit an Extra"
+msgstr "Uredi dodatne usluge"
+
+#: backend/extras.php:181 backend/extras.php:300
+msgid "The name will be shown in the booking form."
+msgstr "Naziv će biti prikazan u formi rezervacije"
+
+#: backend/extras.php:184 backend/extras.php:283 backend/extras.php:303
+msgid "Explanation"
+msgstr "Objašnjenje"
+
+#: backend/extras.php:184 backend/extras.php:303
+#: backend/seasons-calendars.php:497 backend/seasons-calendars.php:785
+msgid "(optional)"
+msgstr "(nije obavezno)"
+
+#: backend/extras.php:186 backend/extras.php:305
+msgid "Explain what the extra is for."
+msgstr "Objasnite šta podrazumijeva dodatna usluga"
+
+#: backend/extras.php:189 backend/extras.php:284 backend/extras.php:308
+msgid "Type of calculation"
+msgstr "Vrsta obračuna"
+
+#: backend/extras.php:192 backend/extras.php:242 backend/extras.php:311
+msgid "per night"
+msgstr "po noćenju"
+
+#: backend/extras.php:193 backend/extras.php:245 backend/extras.php:312
+msgid "per day"
+msgstr "po danu"
+
+#: backend/extras.php:194 backend/extras.php:248 backend/extras.php:313
+msgid "once (no matter how many persons)"
+msgstr "jednokratno (bez obzira na broj osoba)"
+
+#: backend/extras.php:195 backend/extras.php:251 backend/extras.php:314
+msgid "per person (once)"
+msgstr "po osobi (jednokratno)"
+
+#: backend/extras.php:196 backend/extras.php:254 backend/extras.php:315
+msgid "per person per night"
+msgstr "po osobi po noćenju"
+
+#: backend/extras.php:197 backend/extras.php:257 backend/extras.php:316
+msgid "per person per day"
+msgstr "po osobi po danu"
+
+#: backend/extras.php:199 backend/extras.php:318
+msgid "Define how the price of the extra is getting charged."
+msgstr "Definišite kako će se naplaćivati dodatne usluge."
+
+#: backend/extras.php:202 backend/extras.php:321
+msgid "Mandatory extra"
+msgstr "Obavezna dodatna usluga"
+
+#: backend/extras.php:206 backend/extras.php:325
+msgid ""
+"You can make an extra mandatory, so every guest has to pay for it (eg. final "
+"cleaning)."
+msgstr ""
+"Možete kreirati obaveznu dodatnu uslugu koju su dužni plaćati svi gosti (n."
+"pr. čišćenje nakon odlaska)."
+
+#: backend/extras.php:211 backend/extras.php:330
+msgid "Enter the price you want to charge for the extra."
+msgstr "Unesite cijenu za dodatne usluge."
+
+#: backend/extras.php:270 backend/seasons-calendars.php:711
+#: backend/seasons-calendars.php:813 backend/seasons-calendars.php:912
+#: frontend/bookingform.php:110
+msgid "Edit"
+msgstr "Uredi"
+
+#: backend/extras.php:274
+msgid "Do you really want to delete this extra?"
+msgstr "Da li zaista želite da obrišete ove dodatne usluge?"
+
+#: backend/extras.php:279
+msgid "Existing Extras"
+msgstr "Postojeće dodatne usluge"
+
+#: backend/extras.php:285
+msgid "Mandatory"
+msgstr "Obavezno"
+
+#: backend/extras.php:292
+msgid "Add new Extra"
+msgstr "Dodaj nove dodatne usluge"
+
+#: backend/extras.php:299
+msgid "Wifi"
+msgstr "Wifi"
+
+#: backend/extras.php:334
+msgid "Add Extra"
+msgstr "Dodaj dodatne usluge"
+
+#: backend/seasons-calendars.php:384
+msgid ""
+"Number of rooms is limited to 15 rooms! If you need more rooms, please "
+"download our <a href=\"https://booking-calendar-plugin.com/pro-download/\" "
+"target=\"_blank\">Pro-Version</a>."
+msgstr ""
+"Broj soba je ograničen na 15! Ukoliko trebate više soba, molimo Vas da "
+"preuzmete našu <a href=\"https://booking-calendar-plugin.com/pro-download/\" "
+"target=\"_blank\">Pro-Verziju</a>."
+
+#: backend/seasons-calendars.php:393
+msgid "Rooms could not be deleted. There are still active bookings."
+msgstr ""
+"Soba ne može biti obrisana. Imate još uvijek aktivne rezervacije za nju."
+
+#: backend/seasons-calendars.php:395
+#, php-format
+msgid "Rooms reduced to %s rooms"
+msgstr "Smanjite broj soba na %s soba"
+
+#: backend/seasons-calendars.php:403
+msgid "Season has been added."
+msgstr "Sezona je dodana."
+
+#: backend/seasons-calendars.php:408
+msgid "Calendar has been deleted."
+msgstr "Kalendar je obrisan."
+
+#: backend/seasons-calendars.php:413
+msgid "Calendar was not deleted. There still exist bookings in this calendar."
+msgstr ""
+"Kalendar nije obrisan. Još uvijek postoje rezervacije za ovaj kalendar."
+
+#: backend/seasons-calendars.php:418
+msgid "Calendar has been added."
+msgstr "Kalendar je dodan."
+
+#: backend/seasons-calendars.php:423
+msgid "Season has been deleted."
+msgstr "Sezona je obrisana."
+
+#: backend/seasons-calendars.php:428
+msgid "Room names have been saved."
+msgstr "Imena soba su sačuvana."
+
+#: backend/seasons-calendars.php:433
+msgid "Season assignment has been added."
+msgstr "Raspored za sezonu je dodan."
+
+#: backend/seasons-calendars.php:438
+msgid "Season assignment has been deleted."
+msgstr "Raspored za sezonu je obrisan."
+
+#: backend/seasons-calendars.php:455
+msgid "Edit existing Calendar"
+msgstr "Uredi postojeći kalendar"
+
+#: backend/seasons-calendars.php:463 backend/seasons-calendars.php:528
+#: backend/seasons-calendars.php:751
+msgid "Room Type A"
+msgstr "Soba tipa A"
+
+#: backend/seasons-calendars.php:464 backend/seasons-calendars.php:529
+#: backend/seasons-calendars.php:752 backend/seasons-calendars.php:843
+msgid "Please choose a meaningful title."
+msgstr "Molimo, izaberite smislen naslov"
+
+#: backend/seasons-calendars.php:467 backend/seasons-calendars.php:732
+#: backend/seasons-calendars.php:755
+msgid "Number of rooms"
+msgstr "Broj soba"
+
+#: backend/seasons-calendars.php:469 backend/seasons-calendars.php:757
+msgid "eg. max. 10 Rooms available"
+msgstr "primjer: maksimalno 10 soba dostupno"
+
+#: backend/seasons-calendars.php:472 backend/seasons-calendars.php:733
+#: backend/seasons-calendars.php:760
+msgid "Max. Persons"
+msgstr "Maksimalno osoba"
+
+#: backend/seasons-calendars.php:474 backend/seasons-calendars.php:762
+msgid "eg. max. 5 persons in one room"
+msgstr "Primjer: maksimalno 5 osoba u sobi"
+
+#: backend/seasons-calendars.php:477 backend/seasons-calendars.php:734
+#: backend/seasons-calendars.php:765
+msgid "Price Preset"
+msgstr "Osnovna cijena"
+
+#: backend/seasons-calendars.php:479 backend/seasons-calendars.php:767
+msgid ""
+"If no season is active, the price preset will be used for price calculations"
+msgstr ""
+"Ukoliko nisu kreirane i aktivirane sezone, cijena definisana kao \"osnovna "
+"cijena\" će biti korištena za obračun."
+
+#: backend/seasons-calendars.php:482 backend/seasons-calendars.php:770
+msgid "Minimum Stay Preset"
+msgstr "Minimalno noćenja"
+
+#: backend/seasons-calendars.php:484 backend/seasons-calendars.php:772
+msgid ""
+"Select the minimum number of nights a guest has to stay. You can also set "
+"different values for different seasons."
+msgstr ""
+"Odredite minimalni broj noćenja koje gosti moraju odsjesti. Također možete "
+"odrediti i različite cijene za različite sezone."
+
+#: backend/seasons-calendars.php:487 backend/seasons-calendars.php:775
+msgid "Threshold for \"partly booked\""
+msgstr "Prag za \"djelimično rezervisano\""
+
+#: backend/seasons-calendars.php:489 backend/seasons-calendars.php:777
+msgid ""
+"The number of rooms after which days in the calendars will be marked as "
+"\"partly booked\". Example: 3 rooms, partly booked is set to 2. Partly "
+"booked will be shown when two rooms are booked."
+msgstr ""
+"Broj soba nakon kojeg će dani u kalendaru biti označeni kao \"djelimično "
+"rezervisano\". Na primjer, djelimična rezervacija je podešena na 2. "
+"Djelimična rezervacija će biti prikazana u kalendaru kada dvije sobe budu "
+"rezervisane."
+
+#: backend/seasons-calendars.php:492 backend/seasons-calendars.php:780
+msgid "Information Page"
+msgstr "Informativna stranica"
+
+#: backend/seasons-calendars.php:493 backend/seasons-calendars.php:781
+#: backend/settings.php:295
+msgid "Manage Pages"
+msgstr "Upravljanje stranicama"
+
+#: backend/seasons-calendars.php:494 backend/seasons-calendars.php:782
+msgid "You can link to an existing Page for further information."
+msgstr ""
+"Možete dodati link prema postojećim stranicama sa detaljnijim informacijama."
+
+#: backend/seasons-calendars.php:497 backend/seasons-calendars.php:785
+msgid "Short information text"
+msgstr "Kratki informativni tekst"
+
+#: backend/seasons-calendars.php:498 backend/seasons-calendars.php:786
+msgid "Nice Apartment with sea view..."
+msgstr "Lijep apartman sa pogledom na more..."
+
+#: backend/seasons-calendars.php:498 backend/seasons-calendars.php:786
+msgid "Maximum 200 chars"
+msgstr "Maksimalno 200 znakova"
+
+#: backend/seasons-calendars.php:520
+msgid "Edit existing Season"
+msgstr "Uredi postojeću sezonu"
+
+#: backend/seasons-calendars.php:534 backend/seasons-calendars.php:848
+msgid "The currency code will be attached automatically."
+msgstr "Simbol valute će biti dodan automatski."
+
+#: backend/seasons-calendars.php:537 backend/seasons-calendars.php:829
+#: backend/seasons-calendars.php:851
+msgid "Minimum Stay"
+msgstr "Minimalno noćenja"
+
+#: backend/seasons-calendars.php:539 backend/seasons-calendars.php:853
+msgid ""
+"Enter the number of nights a guest has to stay. Bookings below this number "
+"of nights will not be accepted."
+msgstr ""
+"Unesite minimalni broj noćenja. Rezervacije koje sadrže manji broj noćenja "
+"od zadatog neće biti prihvaćene."
+
+#: backend/seasons-calendars.php:583 backend/seasons-calendars.php:877
+#: backend/seasons-calendars.php:906
+#, php-format
+msgid "%d night minimum stay"
+msgid_plural "%d nights minimum stay"
+msgstr[0] "%d noćenje minimalno"
+msgstr[1] "%d noćenja minimalno"
+msgstr[2] "%d noćenja minimalno"
+
+#: backend/seasons-calendars.php:591
+msgid "Edit existing Assignment"
+msgstr "Uredi postojeći raspored"
+
+#: backend/seasons-calendars.php:602 backend/seasons-calendars.php:927
+#: backend/seasons-calendars.php:944
+msgid "Season"
+msgstr "Sezona"
+
+#: backend/seasons-calendars.php:606 backend/seasons-calendars.php:948
+msgid "Start Date"
+msgstr "Datum početka"
+
+#: backend/seasons-calendars.php:610 backend/seasons-calendars.php:952
+msgid "End Date"
+msgstr "Datum završetka"
+
+#: backend/seasons-calendars.php:635
+#, php-format
+msgid "Edit room names for calendar \"%s\""
+msgstr "Uredi nazive soba za kalendar \"%s\""
+
+#: backend/seasons-calendars.php:644
+#, php-format
+msgid "Name for room %d"
+msgstr "Ima ze sobu %d"
+
+#: backend/seasons-calendars.php:667
+msgid "Calendars"
+msgstr "Kalendari"
+
+#: backend/seasons-calendars.php:668
+msgid "Seasons"
+msgstr "Sezone"
+
+#: backend/seasons-calendars.php:669
+msgid "Season - Calendar - Assignments"
+msgstr "Sezona - Kalendar - Raspored"
+
+#: backend/seasons-calendars.php:693
+msgid "No Page selected"
+msgstr "Nije odabrana nijedna stranica"
+
+#: backend/seasons-calendars.php:715
+msgid "Do you really want to delete this calendar?"
+msgstr "Da li zaista želite obrisati ovaj kalendar?"
+
+#: backend/seasons-calendars.php:721
+msgid "Room Names"
+msgstr "Imena soba"
+
+#: backend/seasons-calendars.php:728
+msgid "Existing Calendars"
+msgstr "Postojeći kalendari"
+
+#: backend/seasons-calendars.php:735
+msgid "Min. Stay Preset"
+msgstr "Minimalno noćenja (unaprijed?)"
+
+#: backend/seasons-calendars.php:736
+msgid "Info Page"
+msgstr "Info stranica"
+
+#: backend/seasons-calendars.php:737
+msgid "Info Text"
+msgstr "Info tekst"
+
+#: backend/seasons-calendars.php:738
+msgid "Shortcode"
+msgstr "Kratki kod"
+
+#: backend/seasons-calendars.php:744
+msgid "Add new Calendar"
+msgstr "Dodaj novi kalendar"
+
+#: backend/seasons-calendars.php:781
+msgid "Don't link"
+msgstr "Ne linkuj"
+
+#: backend/seasons-calendars.php:790
+msgid "Add Calendar"
+msgstr "Dodaj kalendar"
+
+#: backend/seasons-calendars.php:817
+msgid "Do you really want to delete this Season?"
+msgstr "Da li zaista želite obrisati ovu sezonu?"
+
+#: backend/seasons-calendars.php:824
+msgid "Existing Seasons"
+msgstr "Postojeće sezone"
+
+#: backend/seasons-calendars.php:835
+msgid "Add new Season"
+msgstr "Dodaj novu sezonu"
+
+#: backend/seasons-calendars.php:842
+msgid "Summer High Price"
+msgstr "Ljetnja visoka cijena"
+
+#: backend/seasons-calendars.php:857
+msgid "Add Season"
+msgstr "Dodaj sezonu"
+
+#: backend/seasons-calendars.php:916
+msgid "Do you really want to delete this Season Assignment?"
+msgstr "Da li zaista želite obrisati ovaj raspored za sezonu?"
+
+#: backend/seasons-calendars.php:923
+msgid "Existing Assignments"
+msgstr "Postojeći rasporedi"
+
+#: backend/seasons-calendars.php:928
+msgid "Date"
+msgstr "Datum"
+
+#: backend/seasons-calendars.php:934
+msgid "Add new Assignment"
+msgstr "Dodaj novi raspored"
+
+#: backend/seasons-calendars.php:958
+msgid "Add Assignment"
+msgstr "Dodaj raspored"
+
+#: backend/settings.php:238
+msgid "Email settings have been saved."
+msgstr "Postavke e-maila su sačuvane."
+
+#: backend/settings.php:243
+msgid "General settings have been saved."
+msgstr "Glavne postavke su sačuvane."
+
+#: backend/settings.php:248
+msgid ""
+"Booking form settings have been saved. Please make sure to update the email "
+"templates as well."
+msgstr ""
+"Postavke forme za rezervacije su sačuvane. Provjerite da li ste ažurirali "
+"postavke e-maila eventualnim promijenjim parametrima."
+
+#: backend/settings.php:260
+msgid "General Settings"
+msgstr "Glavne postavke"
+
+#: backend/settings.php:261
+msgid "Booking Form Settings"
+msgstr "Postavke forme za rezervacije"
+
+#: backend/settings.php:271
+msgid "This Email Address will receive all booking requests"
+msgstr "Ova e-mail adresa će primate sve zahtjeve za rezervacije."
+
+#: backend/settings.php:274
+msgid "Newsletter"
+msgstr "Bilteni"
+
+#: backend/settings.php:277
+msgid ""
+"Yes, I want to get vital informations on how to raise my occupation rate and "
+"stay tuned about Advanced Booking Calendar"
+msgstr ""
+"Da, želim primate informacije kako poboljšati poslovanje i biti informisan o "
+"Advanced Booking Calendar dodatku."
+
+#: backend/settings.php:278
+msgid "No, disable the newsletter"
+msgstr "Ne, onemogući primanje biltena."
+
+#: backend/settings.php:280
+msgid ""
+"You will receive regular tips on how to create great Hotel websites and "
+"informations about this plugin. We promise to never spam you. You can "
+"unsubscribe anytime."
+msgstr ""
+"Dobijaćete savjete kako kreirati kvalitetne web stranice hotela i "
+"informacije o ovom dodatku. Sigurno Vam nećemo slati spam mailove, a "
+"odjaviti se možete u svakom trenutku. "
+
+#: backend/settings.php:284
+msgid "Page with booking form"
+msgstr "Stranica sa formom za rezervacije"
+
+#: backend/settings.php:289
+msgid "Not selected"
+msgstr "Nije odabrano"
+
+#: backend/settings.php:296
+msgid ""
+"Select the page which uses the booking form shortcode. You have to add the "
+"shortcode [abc-bookingform] manually to this page. The page will be linked, "
+"if user selects dates on the single calendar shortcode."
+msgstr ""
+"Odaberite stranicu u kojoj se nalazi kratki kod forme za rezervaciju. Morate "
+"dodati kratki kod [abc-bookingform] ručno u tu stranicu. Stranica će biti "
+"linkovana, ako korisnik odabere datume na pojedinačnom kalendaru."
+
+#: backend/settings.php:299
+msgid "Currency"
+msgstr "Valuta"
+
+#: backend/settings.php:301
+msgid "Example: &euro; or $"
+msgstr "Primjer: € ili $"
+
+#: backend/settings.php:304
+msgid "Price format"
+msgstr "Format cijene"
+
+#: backend/settings.php:312
+msgid "Date format"
+msgstr "Format datuma"
+
+#: backend/settings.php:321
+msgid "Position of currency sign"
+msgstr "Pozicija znaka valute"
+
+#: backend/settings.php:325
+msgid "Before the amount"
+msgstr "Prije iznosa"
+
+#: backend/settings.php:327
+msgid "After the amount"
+msgstr "Poslije iznosa"
+
+#: backend/settings.php:332
+msgid "Cookies"
+msgstr "Kolačići"
+
+#: backend/settings.php:335 backend/settings.php:345 backend/settings.php:356
+msgid "Enabled"
+msgstr "Omogućeno"
+
+#: backend/settings.php:336 backend/settings.php:346 backend/settings.php:357
+#: backend/settings.php:377 backend/settings.php:387 backend/settings.php:397
+#: backend/settings.php:407 backend/settings.php:417 backend/settings.php:427
+#: backend/settings.php:437 backend/settings.php:447 backend/settings.php:457
+msgid "Disabled"
+msgstr "Onemogućeno"
+
+#: backend/settings.php:338
+msgid ""
+"If cookies are enabled, customer date inputs are saved in a cookie (no "
+"personal data is stored in the cookie)."
+msgstr ""
+"Ukoliko su kolačići omogućeni, ulazni podaci klijenata su sačuvani u njima "
+"(u istim neće biti pohranjeni lični podaci klijenata)."
+
+#: backend/settings.php:348
+msgid ""
+"If enabled, user interactions with calendars and forms will be tracked in "
+"your Google Universal Analytics. Please configure Universal Analytics "
+"seperately. We recommend using the following plugin:"
+msgstr ""
+"Ukoliko je opcija omogućena, interakcija korisnika sa kalendarima i formama "
+"rezervacija će biti zabilježena u Google Universal Analytics. Moliko Vas da "
+"Universal Analytics posebno konfigurišete. Preporučujemo sljedeći dodatak:"
+
+#: backend/settings.php:353
+msgid "Powered-by-Link"
+msgstr "Powered-by-link"
+
+#: backend/settings.php:359
+msgid ""
+"If link is enabled, a tiny \"powered by Advanced Booking Calendar\"-link "
+"will show up below the calendar overview."
+msgstr ""
+"Ukoliko je link omogućen, tanko \"powered by Advanced Booking Calendar\" - "
+"link će biti prikazan ispod kalendara."
+
+#: backend/settings.php:368
+msgid "Booking Form Inputs"
+msgstr "Obrazac za rezervaciju"
+
+#: backend/settings.php:375 backend/settings.php:385 backend/settings.php:395
+#: backend/settings.php:405 backend/settings.php:415 backend/settings.php:425
+#: backend/settings.php:435 backend/settings.php:445 backend/settings.php:455
+msgid "Required"
+msgstr "Potrebno"
+
+#: backend/settings.php:376 backend/settings.php:386 backend/settings.php:396
+#: backend/settings.php:406 backend/settings.php:416 backend/settings.php:426
+#: backend/settings.php:436 backend/settings.php:446 backend/settings.php:456
+msgid "Optional"
+msgstr "Neobavezno"
+
+#: backend/settings.php:467
+msgid "Placeholders"
+msgstr "Dodatna polja (oznake)"
+
+#: backend/settings.php:468
+msgid ""
+"You can use the following placeholder in both subject and text. They will be "
+"replaced with the actual content when the email is send to the guest:"
+msgstr ""
+"Možete koristiti sljedeće oznake (placeholder) u obje teme i tekstu. Oni će "
+"biti zamijenjeni sa aktuelnim sadržajem kada e-mail bude proslijeđen gostu:"
+
+#: backend/settings.php:473
+msgid "Templates"
+msgstr "Predložak"
+
+#: backend/settings.php:474
+msgid "Unconfirmed Booking"
+msgstr "Nepotvrđene rezervacije"
+
+#: backend/settings.php:476
+msgid "Subject for an unconfirmed booking mail"
+msgstr "Tema za mail nepotvrđene rezervacije"
+
+#: backend/settings.php:482
+msgid "Text for an unconfirmed booking mail"
+msgstr "Tekst za mail nepotvrđene rezervacije"
+
+#: backend/settings.php:487
+msgid "Confirming an open Booking"
+msgstr "Potvrđivanje otvorene rezervacije"
+
+#: backend/settings.php:489
+msgid "Subject for a booking confirmation mail"
+msgstr "Tema za mail potvrđivanja rezervacije"
+
+#: backend/settings.php:495
+msgid "Text for a booking confirmation mail"
+msgstr "Tekst za mail potvrđivanja rezervacije"
+
+#: backend/settings.php:499
+msgid "Canceling a confirmed Booking"
+msgstr "Otkazivanje potvrđene rezervacije"
+
+#: backend/settings.php:502
+msgid "Subject for a cancelation mail"
+msgstr "Tema za mail otkazivanja rezervacije"
+
+#: backend/settings.php:508
+msgid "Text for a cancelation mail"
+msgstr "Tekst za mail otkazivanja rezervacije"
+
+#: backend/settings.php:513
+msgid "Rejecting an open Booking"
+msgstr "Odbijanje otvorene rezervacije"
+
+#: backend/settings.php:515
+msgid "Subject for a rejection mail"
+msgstr "Zema za mail odbijanja rezervacije"
+
+#: backend/settings.php:521
+msgid "Text for a rejection mail"
+msgstr "Tekst  za mail odbijanja rezervacije"
+
+#: frontend/bookingform.php:81 frontend/bookingform.php:109
+#: frontend/singlecalendar.php:41
+msgid "Loading..."
+msgstr "Učitavanje..."
+
+#: frontend/bookingform.php:109 widget.php:132
+msgid "Check availabilities"
+msgstr "Provjerite dostupnost"
+
+#: frontend/bookingform.php:169 frontend/singlecalendar.php:336
+#, php-format
+msgid "Your stay is too short. Minimum stay for those dates is %d nights."
+msgstr ""
+"Odredili ste kratak period. Minimalan broj noćenja za tu sezonu je %d noći"
+
+#: frontend/bookingform.php:171
+msgid "average"
+msgstr "prosjek"
+
+#: frontend/bookingform.php:175
+msgid "Select room"
+msgstr "Odaberi sobu"
+
+#: frontend/bookingform.php:183
+msgid "Available rooms for your stay"
+msgstr "Slobodne sobe za odabrani termin"
+
+#: frontend/bookingform.php:186
+msgid "No rooms available for your search request."
+msgstr "Nema slobodnih soba za Vaš upit"
+
+#: frontend/bookingform.php:231
+msgid "Optional extra"
+msgid_plural "Optional extras"
+msgstr[0] "Neobavezna dodatna usluga"
+msgstr[1] "Neobavezne dodatne usluge"
+msgstr[2] "Neobaveznih dodatnih usluga"
+
+#: frontend/bookingform.php:254
+msgid "Continue"
+msgstr "Nastavi"
+
+#: frontend/bookingform.php:303
+msgid "Selected extra"
+msgid_plural "Selected extras"
+msgstr[0] "Odabrana dodatna usluga"
+msgstr[1] "Odabrane dodatne usluge"
+msgstr[2] "Odabranih dodatnih usluga"
+
+#: frontend/bookingform.php:307
+msgid "Costs for the extras"
+msgstr "Cijene dodatnih usluga"
+
+#: frontend/bookingform.php:313
+msgid "Price for the room"
+msgstr "Cijena za sobu"
+
+#: frontend/bookingform.php:387
+msgid "Your stay"
+msgstr "Vaš boravak"
+
+#: frontend/bookingform.php:392
+msgid "Total Price"
+msgstr "Ukupna cijena"
+
+#: frontend/bookingform.php:398 frontend/singlecalendar.php:342
+msgid "Book now"
+msgstr "Rezerviši odmah"
+
+#: frontend/bookingform.php:500
+msgid "Thank you for your booking request!"
+msgstr "Hvala za Vašu rezervaciju!"
+
+#: frontend/bookingform.php:501
+msgid "We have sent you an email including a summary of your booking!"
+msgstr "Poslali smo Vam e-mail sa sažetkom Vaše rezervacije!"
+
+#: frontend/bookingform.php:506
+msgid ""
+"Something went wrong, your booking could not be completed. Please try again."
+msgstr ""
+"Nešto nije kako treba, Vaša rezervacija ne može biti kompletirana. Molimo, "
+"pokušajte ponovo."
+
+#: frontend/calendaroverview.php:132 frontend/calendaroverview.php:190
+#: frontend/singlecalendar.php:55
+msgid "Available"
+msgstr "Dostupno"
+
+#: frontend/calendaroverview.php:135 frontend/calendaroverview.php:192
+#: frontend/singlecalendar.php:57
+msgid "Partly booked"
+msgstr "Djelimično rezervisano"
+
+#: frontend/calendaroverview.php:138 frontend/calendaroverview.php:194
+#: frontend/singlecalendar.php:59
+msgid "Fully booked"
+msgstr "Potpuno rezerevisano"
+
+#: frontend/calendaroverview.php:209
+msgid "Powered by:"
+msgstr "Powered by:"
+
+#: frontend/singlecalendar.php:18 frontend/singlecalendar.php:32
+msgid "Su"
+msgstr "Ned"
+
+#: frontend/singlecalendar.php:19 frontend/singlecalendar.php:26
+msgid "Mo"
+msgstr "Pon"
+
+#: frontend/singlecalendar.php:20 frontend/singlecalendar.php:27
+msgid "Tu"
+msgstr "Uto"
+
+#: frontend/singlecalendar.php:21 frontend/singlecalendar.php:28
+msgid "We"
+msgstr "Sri"
+
+#: frontend/singlecalendar.php:22 frontend/singlecalendar.php:29
+msgid "Th"
+msgstr "Čet"
+
+#: frontend/singlecalendar.php:23 frontend/singlecalendar.php:30
+msgid "Fr"
+msgstr "Pet"
+
+#: frontend/singlecalendar.php:24 frontend/singlecalendar.php:31
+msgid "Sa"
+msgstr "Sub"
+
+#: functions.php:379
+msgid "No optional extras."
+msgstr "Nema neobaveznih dodatnih usluga"
+
+#: functions.php:382
+msgid "No mandatory extras."
+msgstr "Nema obaveznih dodatnih usluga"
+
+#: functions.php:489 functions.php:611
+msgid "New Booking Request"
+msgstr "Nema zahtjeva za rezervacije"
+
+#: functions.php:816
+#, php-format
+msgid "%s for each of the %d nights"
+msgstr "%s za svaku %d noć"
+
+#: functions.php:822
+#, php-format
+msgid "%s for each of the %d days"
+msgstr "%s za svaki %d dan"
+
+#: functions.php:827
+#, php-format
+msgid "%s paid once"
+msgstr "%s plaćanje jednokratno"
+
+#: functions.php:832
+#, php-format
+msgid "%s for each of the %d persons"
+msgstr "%s za svaku %d osobu"
+
+#: functions.php:838
+#, php-format
+msgid "%s for each of the %d persons and %d nights"
+msgstr "%s za svaku %d osobu i %d noć"
+
+#: functions.php:844
+#, php-format
+msgid "%s for each of the %d persons and %d days"
+msgstr "%s za svaku %d osobu i %d dan"
+
+#: widget.php:9
+msgid "Advanced Booking Calendar Widget."
+msgstr "Advanced Booking Calendar dodatak."
+
+#: widget.php:11
+msgid "Availability Form Widget"
+msgstr "Dodatak provjere dostupnosti"
+
+#: widget.php:23
+msgid "Availability"
+msgstr "Dostupnost"
+
+#: widget.php:26
+msgid "Title:"
+msgstr "Naziv:"
+
+#: widget.php:31
+msgid ""
+"This widgets loads a small booking form. After a user selected the dates and "
+"clicked on \"Check availabilites\", the booking form is loaded."
+msgstr ""
+"Dodatak pokreće malu formu za rezervacije. Nakon što korisnik unese datume i "
+"klikne na \"Provjeri dostupnost\", forma za rezervaciju će se učitati."
+
+#: widget.php:33
+msgid ""
+"There is no booking page configured. Check the settings and select a page "
+"with the booking form."
+msgstr ""
+"Nije konfigurisana stranica za rezervacije. Provjerite podešavanja i "
+"odaberite stranicu sa formom za rezervacije."
+
+#: widget.php:140
+msgid ""
+"There is no booking page configured. Check the settings of the Advanced "
+"Booking Calendar."
+msgstr ""
+"Nije konfigurisana stranica za rezervacije. Provjerite podešavanje dodatka "
+"\"Advanced Booking Calendar\"."
+
+#. Plugin Name of the plugin/theme
+#. Author of the plugin/theme
+msgid "Advanced Booking Calendar"
+msgstr "Advanced Booking Calendar"
+
+#. Plugin URI of the plugin/theme
+msgid "https://booking-calendar-plugin.com/"
+msgstr "https://booking-calendar-plugin.com/"
+
+#. Description of the plugin/theme
+msgid ""
+"The Booking System that makes managing your online reservations easy. A "
+"great Booking Calendar plugin for Accommodations."
+msgstr ""
+"Sistem rezervacija koji Vam omogućava veoma lako upravljanje online "
+"rezervacijama. Odličan kalendar za rezervaciju smještaja u vašim "
+"kapacitetima."
+
+#. Author URI of the plugin/theme
+msgid "https://booking-calendar-plugin.com"
+msgstr "https://booking-calendar-plugin.com"
+
+msgid "Total price for stay"
+msgstr "Ukupna cijena za Vaš boravak"
+
+msgid ""
+"There is in overlap in the bookings. Check if you can move other bookings to "
+"other rooms. The booking can only be saved as \"open\""
+msgstr ""
+"Postoji preklapanje rezervacija. Provjerite da li možete rezervisati drugu "
+"sobu. Rezervacija može biti sačuvana samo kao \"otvorena\"."
+
+msgid "Party booked"
+msgstr "Djelimično rezervisano"
+
+msgid ""
+"The easy way to manage your bookings and raise your occupancy rate. This "
+"plugin is made for modern Hoteliers who want to get hold of their online "
+"reservations."
+msgstr ""
+"Jednostavan način upravljanja rezervacijama i podizanje vase usluge na viši "
+"nivo. Dodatak je dizajniran za moderno hotelijerstvo i one koji žele do "
+"svojih gostiju doći putem interneta i omogućiti im online rezervacije."
+
+msgid "My Calendar"
+msgstr "Moj kalendar"
